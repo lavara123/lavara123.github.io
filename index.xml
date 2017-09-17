@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>İbrahim Boyacı</title>
+    <link>https://lavara123.github.io/</link>
+    <description>Recent content on İbrahim Boyacı</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr-TR</language>
+    <copyright>Copyleft@Kevin Tan</copyright>
+    <lastBuildDate>Sat, 19 Aug 2017 21:37:49 +0800</lastBuildDate>
+    
+	<atom:link href="https://lavara123.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Arşiv</title>
+      <link>https://lavara123.github.io/archive/</link>
+      <pubDate>Sat, 19 Aug 2017 21:37:49 +0800</pubDate>
+      
+      <guid>https://lavara123.github.io/archive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hakkımda</title>
+      <link>https://lavara123.github.io/about/</link>
+      <pubDate>Sat, 19 Aug 2017 20:09:28 +0800</pubDate>
+      
+      <guid>https://lavara123.github.io/about/</guid>
+      <description> Hello World! { &amp;quot;İsim&amp;quot;: &amp;quot;İbrahim Boyacı&amp;quot;, &amp;quot;Hobiler&amp;quot;: [&amp;quot;C/C++&amp;quot;, &amp;quot;Python&amp;quot;, &amp;quot;Linux&amp;quot;, &amp;quot;Cocos2D-X&amp;quot;], &amp;quot;Ülke&amp;quot;: &amp;quot;Turkiye&amp;quot;, &amp;quot;İletişim&amp;quot;: { &amp;quot;Email&amp;quot;: &amp;quot;iboyaci1996@gmail.com&amp;quot;, &amp;quot;Github&amp;quot;: &amp;quot;@lavara123&amp;quot;, } }  </description>
+    </item>
+    
+    <item>
+      <title>网易云音乐新API浅析</title>
+      <link>https://lavara123.github.io/post/hello-world/</link>
+      <pubDate>Thu, 19 Mar 2015 17:14:00 +0000</pubDate>
+      
+      <guid>https://lavara123.github.io/post/hello-world/</guid>
+      <description>&lt;p&gt;新API采用了略微修改过的AES和RSA加密，主要用在登陆接口上，对新API进行简单的分析。&lt;/p&gt;
+
+&lt;h2 id=&#34;url&#34;&gt;Url&lt;/h2&gt;
+
+&lt;p&gt;估计会抓包的人都知道，Url中的api便成了weapi。比如手机登录：
+原来是：&lt;code&gt;http://music.163.com/api/login/cellphone/&lt;/code&gt;
+现在是：&lt;code&gt;http://music.163.com/weapi/login/cellphone/&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;加密算法&#34;&gt;加密算法&lt;/h2&gt;
+
+&lt;p&gt;核心过程如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt; aesRsaEncrypt = function (text, pubKey, modulus, nonce) {
+  const secKey = createSecretKey(16);  // 随机生成16位加密密钥
+  return {
+	params:  aesEncrypt(aesEncrypt(text, nonce), secKey),
+	encSecKey: rsaEncrypt(secKey, pubKey, modulus)
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
