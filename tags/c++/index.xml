@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on İbrahim Boyacı</title>
-    <link>https://lavara123.github.io/post/</link>
-    <description>Recent content in Posts on İbrahim Boyacı</description>
+    <title>C&#43;&#43; on İbrahim Boyacı</title>
+    <link>https://lavara123.github.io/tags/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on İbrahim Boyacı</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
     <copyright>Copyleft@Kevin Tan</copyright>
     <lastBuildDate>Tue, 19 Sep 2017 19:55:00 +0000</lastBuildDate>
     
-	<atom:link href="https://lavara123.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lavara123.github.io/tags/c++/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
