@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
     <copyright>Copyleft@Kevin Tan</copyright>
-    <lastBuildDate>Tue, 19 Sep 2017 19:55:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Sep 2017 22:30:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lavara123.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>C&#43;&#43; Pointers (Göstericiler) -2-</title>
+      <link>https://lavara123.github.io/post/cpp-pointers2/</link>
+      <pubDate>Fri, 22 Sep 2017 22:30:00 +0000</pubDate>
+      
+      <guid>https://lavara123.github.io/post/cpp-pointers2/</guid>
+      <description>Şimdi de Dizilerde işaretçi kullanımını görelim:
+#include &amp;lt;iostream&amp;gt; using namespace std; int main() { int dizi[] = { 10, 20, 30, 40, 50 }; // po işaretçimiz dizi&#39;nin adresini gösteriyor int *po = dizi; // po&#39;nun gösterdiği adresteki verileri ekrana yazdırıyoruz for (int i = 0; i &amp;lt; 5; i++) cout &amp;lt;&amp;lt; po[i] &amp;lt;&amp;lt; endl; system(&amp;quot;PAUSE&amp;quot;); return 0; }  Yukardaki Kodları Sırayla Açılayalım
+int dizi[] = { 10, 20, 30, 40, 50 };   Yukarda &amp;ldquo;dizi&amp;rdquo; adında int türünden bir dizi oluşturuyoruz bu dizinin içindeki elemanlar otomatik olarak aşağıdaki gibi &amp;ldquo;dizi&amp;rdquo; ye atanıyor  dizi[0] = 10; dizi[1] = 20; dizi[2] = 30; dizi[3] = 40; dizi[4] = 50;  yukardakilerin stack hafızada 20 bytelik bir alan kaplar bu alanı bir 5 katlı bir dolaba benzetelim dolabın en üst katında dizi[0] en alt katında dizi[4] vardır yani: yukarda görüldüğü gibi derleyici sıralı bir şekilde stack hafızada &amp;ldquo;dizi&amp;rdquo; yi yerleştirmiş bir önceki konuda demiştim değişkenlerimizi tanımladığımızda o değişkenleri derleyici stack hafızada yerleşimini yapar yani derleyicinin elindedir ne zaman bizim elimizde olur derseniz onu ileri konuda anlatmayı düşünüyorum.</description>
+    </item>
     
     <item>
       <title>C&#43;&#43; Pointers (Göstericiler)</title>

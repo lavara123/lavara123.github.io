@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lavara123.github.io/post/cpp-pointers2/</loc>
+    <lastmod>2017-09-22T22:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://lavara123.github.io/post/cpp-pointers/</loc>
     <lastmod>2017-09-19T19:55:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -25,42 +32,49 @@
   
   <url>
     <loc>https://lavara123.github.io/tags/c&#43;&#43;/</loc>
-    <lastmod>2017-09-19T19:55:00+00:00</lastmod>
+    <lastmod>2017-09-22T22:30:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lavara123.github.io/categories/c&#43;&#43;/</loc>
-    <lastmod>2017-09-19T19:55:00+00:00</lastmod>
+    <lastmod>2017-09-22T22:30:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lavara123.github.io/categories/</loc>
-    <lastmod>2017-09-19T19:55:00+00:00</lastmod>
+    <lastmod>2017-09-22T22:30:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lavara123.github.io/tags/pointers/</loc>
+    <lastmod>2017-09-22T22:30:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lavara123.github.io/post/</loc>
-    <lastmod>2017-09-19T19:55:00+00:00</lastmod>
+    <lastmod>2017-09-22T22:30:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lavara123.github.io/tags/</loc>
-    <lastmod>2017-09-19T19:55:00+00:00</lastmod>
+    <lastmod>2017-09-22T22:30:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lavara123.github.io/</loc>
-    <lastmod>2017-09-19T19:55:00+00:00</lastmod>
+    <lastmod>2017-09-22T22:30:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>

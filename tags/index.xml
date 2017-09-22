@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
     <copyright>Copyleft@Kevin Tan</copyright>
-    <lastBuildDate>Tue, 19 Sep 2017 19:55:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Sep 2017 22:30:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lavara123.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,18 @@
     <item>
       <title>C&#43;&#43;</title>
       <link>https://lavara123.github.io/tags/c&#43;&#43;/</link>
-      <pubDate>Tue, 19 Sep 2017 19:55:00 +0000</pubDate>
+      <pubDate>Fri, 22 Sep 2017 22:30:00 +0000</pubDate>
       
       <guid>https://lavara123.github.io/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pointers</title>
+      <link>https://lavara123.github.io/tags/pointers/</link>
+      <pubDate>Fri, 22 Sep 2017 22:30:00 +0000</pubDate>
+      
+      <guid>https://lavara123.github.io/tags/pointers/</guid>
       <description></description>
     </item>
     
